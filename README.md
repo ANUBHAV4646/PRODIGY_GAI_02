@@ -1,11 +1,11 @@
 # PRODIGY_GAI_02
 This repository demonstrates how to generate images from natural language prompts using Stable Diffusion, a powerful pre-trained generative AI model.
 
-**📌 Project Description**
+**Project Description**
 
 Stable Diffusion is a latent text-to-image diffusion model capable of generating photorealistic images given any input text. This project allows users to experiment with the model by providing prompts and viewing or saving the generated outputs.
 
-**✨ Features**
+**Features**
 
 -Generate high-quality images from simple or complex text prompts
 
@@ -15,17 +15,18 @@ Stable Diffusion is a latent text-to-image diffusion model capable of generating
 
 -Prompt-driven, customizable results
 
-**🧠 Key Concepts**
+**Key Concepts**
 
--Latent Diffusion: The model operates in a lower-dimensional latent space, which speeds up generation and reduces computational costs.
+**-Latent Diffusion:** The model operates in a lower-dimensional latent space, which speeds up generation and reduces computational costs.
 
--CLIP Text Encoder: Converts the input prompt into embeddings that guide image generation.
+**-CLIP Text Encoder:** Converts the input prompt into embeddings that guide image generation.
 
--Denoising Process: The model refines a noise image step-by-step into a meaningful visual.
+**-Denoising Process:** The model refines a noise image step-by-step into a meaningful visual.
 
--Prompt Engineering: The quality and specificity of your prompt directly affect the image output.
+**-Prompt Engineering:** The quality and specificity of your prompt directly affect the image output.
 
-**⚙️ Runtime Settings**
+
+**Runtime Settings**
 
 ✅ GPU is recommended for optimal performance.
 
@@ -40,7 +41,7 @@ Stable Diffusion is a latent text-to-image diffusion model capable of generating
 
 Uses GPU (CUDA) if available
 
-Falls back to CPU if not (⚠️ slower and may crash with large models)
+Falls back to CPU if not (slower and may crash with large models)
 
 **📥 Input**
 
@@ -58,7 +59,7 @@ Examples:
 
 -Images can be viewed directly or saved locally.
 
-**🚀 Getting Started***
+**Getting Started***
 
 This project is designed to run in Google Colab for ease of setup.
 
